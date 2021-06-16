@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PincodeComponent } from './pincode/pincode.component';
 
 const routes: Routes = [
-  {path:'pincode',component:PincodeComponent}
+  {component:PincodeComponent, path:'pincode'}
 ];
 
 @NgModule({
