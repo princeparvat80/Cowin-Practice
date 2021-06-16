@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: url("P:\cowinapp\cowin-notify\Pink Pale Beach Wedding Facebook Cover.png");
+  background-image: url("https://gregmolyneuxphotography.com/wp-content/uploads/2016/08/ray-of-hope.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -13,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:whitesmoke;
+    color:rgb(61, 13, 13);
     /* text-decoration: honeydew; */
   }
   img {
@@ -23,29 +23,27 @@
   }
   .top-right {
     position: absolute;
-    top: 8px;
+    top: -30px;
     right: 16px;
+    color: rgb(0, 0, 0);
+    
   }
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
+ 
 /* buttons */
 .button-group button {
     font-family: sans-serif;
-    border: none;
+    border-radius: 12px;
     padding: 10px 20px;
     left: 1000px;
     font-size: 18px;
     outline: none;
     background: transparent;
     color: #83cccc;
-    background: #4d898b;
+    background: #171818;
     border: 1px solid #78969D;
     -webkit-transition-duration: 1s; /* for Safari */
     transition-duration: 1s;
+    
     
     float: left;
     position: relative;
