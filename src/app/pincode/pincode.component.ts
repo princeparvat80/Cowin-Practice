@@ -7,10 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PincodeComponent implements OnInit {
 
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
   
+
 }
