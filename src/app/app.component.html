@@ -1,14 +1,60 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<app-navbar></app-navbar>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* body {
+    font-family: "Lato", sans-serif;
+} */
+
+</style>
 
 
-<li class="nav-item">
-    <a routerLink="district">District</a>
-</li>
+</head>
+<body>
+  
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">LARGEST VACCINE DRIVE</h1>
+    
+    <h3>#GetVaccinated</h3>
+    <h4>#LetsFightTogether</h4>
+    <!-- <button>Hire me</button> -->
+    <!-- <img class="wer" src="https://medlineplus.gov/ency/images/ency/fullsize/24383.jpg"  width="300" height="300"> -->
+    <img src="https://medlineplus.gov/ency/images/ency/fullsize/24383.jpg"  width="200" height="200">
+    <!-- <div class="center">
+      <p>Hello World!</p>
+    </div> -->
+    <div class="text-center">
+    <h3 class= "bg-info">   Check your nearest vaccination center and slots availability</h3>
+    </div>
+    <div class="button-group">
+      
+      
+      <button id="button1" routerLink="/pincode" routerLinkActive="active"> search by pin </button>
+
+     <a routerLink="district"> <button id="button2"> search by district </button></a>
+      <button id="button3"> search by maps </button>
+   </div>
+    <div class="top-right"><h3> HelpLine</h3>
+      <p>Number<br>91-11-23978046</p>
+      <br>
+      <p>Health Ministry<br>1075</p>
+    <br>
+  <p>Child <br>1098</p>
+<br><p>Mental Health<br>08046110007</p>
+<p>Senior Citizens<br>14567</p></div>
+    
+  </div>
+</div>
+</body>
+</html>
+
+
 <router-outlet></router-outlet>
