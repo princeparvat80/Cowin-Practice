@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PincodeComponent } from './pincode/pincode.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    
     HttpClientModule
   ],
   providers: [],
